@@ -98,7 +98,7 @@ public class Ui {
 					check=false;
 					Timer=-1;
 					AppManager.getInstance().getGameMain().mThread.mPlayGame.playerMoney=0;
-					if(goodNum==0) AppManager.getInstance().getGameMain().mThread.mPlayGame.timer-=50; //4
+					if(goodNum==0) AppManager.getInstance().getGameMain().mThread.mPlayGame.timer-=4; //4
 					if(goodNum==1) AppManager.getInstance().getGameMain().mThread.mPlayGame.timer+=6;
 					if(goodNum==2) AppManager.getInstance().getGameMain().mThread.mPlayGame.timer+=16;
 					if(goodNum==3) {
